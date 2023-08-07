@@ -1,0 +1,45 @@
+// css code for creating anydesk logo (7/8/2023) 
+code:
+<div class="container">
+  <div class="box"></div>
+  <div class="side1"></div>
+  <div class="side2"></div>
+</div>
+<style>
+  body{
+    margin:0px;
+    padding:0px;
+    background-color:#998235;
+  }
+  .container{
+    height:300px;
+    width:400px;
+    display:flex;
+    /* background-color:#998235; */
+    align-items:center;
+    justify-content:center;
+  }
+  .box{
+    height:140px;
+    width:140px;
+    background-color:#0B2429;
+    rotate:45deg;
+    margin:40px 40px 40px 40px;
+  }
+  .side1{
+    height:120px;
+    width:30px;
+    background-color:#0B2429;
+    rotate:135deg;
+    margin-left:30px;
+    margin-top:-90px;
+  }
+  .side2{
+    height:120px;
+    width:30px;
+    background-color:#0B2429;
+    rotate: 45deg;
+    margin-top:75px;
+    margin-left:-40px;
+  }
+</style>
